@@ -40,6 +40,6 @@ with open(election_data, 'r') as csvfile:
     print(output)
     
     # Export the results to text file
-    file_to_output = "Analysis/Election_Analysis.txt"
+    file_to_output = "PyPoll/Analysis/Election_Results.txt"
     with open(file_to_output, "w") as txt_file:    
         txt_file.write(output)

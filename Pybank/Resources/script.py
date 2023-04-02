@@ -51,6 +51,6 @@ with open(Budget_data, 'r') as csvfile:
 
     print(output)
 # Export the results to text file
-file_to_output="Analysis/budget_analysis.txt"
+file_to_output="PyBank/Analysis/budget_analysis.txt"
 with open(file_to_output, "w") as txt_file:    
     txt_file.write(output)
